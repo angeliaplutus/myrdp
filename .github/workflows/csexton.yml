@@ -1,5 +1,6 @@
 name: Ubuntu
 on: [push]
+  workflow_dispatch: # Put here!!
 jobs:
   Ubuntu:
     runs-on: ubuntu-latest
