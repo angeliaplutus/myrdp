@@ -2,6 +2,7 @@ name: P3TERXUbuntu
 on:
   watch:
     types: started
+  workflow_dispatch: # Put here!!
 jobs:
   Ubuntu:
     runs-on: ubuntu-latest
